@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Name "
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Nickname "
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <EditText
+            android:id="@+id/edit_nickname"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="Mobile No. "
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <EditText
+            android:id="@+id/edit_mobile"
+            android:textSize="15sp"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:text="Phone No. "
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <EditText
+            android:id="@+id/edit_phone"
+            android:textSize="15sp"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Email Id "
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <EditText
+            android:id="@+id/edit_email"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
